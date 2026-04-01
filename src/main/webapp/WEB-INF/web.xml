@@ -1,0 +1,29 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+           http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+  <display-name>estore</display-name>
+
+  <!-- Order items -->
+  <servlet>
+    <servlet-name>OrderItemServlet</servlet-name>
+    <servlet-class>com.simplilearn.estore.controller.OrderItemServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderItemServlet</servlet-name>
+    <url-pattern>/admin/orderitems/*</url-pattern>
+  </servlet-mapping>
+
+  <!-- Shipments -->
+  <servlet>
+    <servlet-name>ShipmentServlet</servlet-name>
+    <servlet-class>com.simplilearn.estore.controller.ShipmentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShipmentServlet</servlet-name>
+    <url-pattern>/admin/shipments/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
