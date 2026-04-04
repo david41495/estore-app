@@ -1,50 +1,59 @@
-# eStore Web Application
+# eStore Admin Web Application
 
-Full-stack web application built using Java, Servlets, JSP, and MySQL.  
-This project simulates an e-commerce admin system for managing clients, meetings, and related data.
+A Java-based admin web application for managing e-commerce data such as shipments and order items. Built with Servlets, JSP, JDBC, MySQL, and Apache Tomcat.
+
+## Overview
+
+This project simulates an internal admin dashboard for an e-commerce system. It allows users to navigate between management sections and perform data-driven operations through a server-rendered Java web application.
 
 ## Features
-- CRUD operations for managing data (clients, meetings, etc.)
-- Dynamic web pages using JSP
-- MVC architecture (Servlets as controllers)
-- Database integration with MySQL
-- Server-side request handling and routing
+
+- Admin dashboard interface
+- Manage shipments
+- Manage order items
+- Java Servlet request handling
+- JSP-based views
+- MySQL database integration with JDBC
+- Apache Tomcat deployment
 
 ## Tech Stack
+
 - Java
-- Servlets & JSP
-- MySQL
+- Servlets
+- JSP
 - JDBC
+- MySQL
 - Apache Tomcat
 - Maven
 
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Order Items
+![Order Items](screenshots/orders.png)
+
+### Shipments
+![Shipments](screenshots/shipments.png)
+
 ## What I Learned
-- How to build dynamic web applications using Java Servlets and JSP
+
+- Building Java web applications with Servlets and JSP
 - Handling HTTP requests and responses
-- Structuring applications using MVC design pattern
-- Connecting backend applications to a relational database
-- Writing SQL queries and integrating them into Java code
+- Connecting Java applications to MySQL using JDBC
+- Organizing backend logic with controller and DAO patterns
+- Running and debugging web applications on Apache Tomcat
 
 ## How to Run
+
 1. Clone the repository
 2. Import the project into Eclipse
-3. Run on Apache Tomcat
-4. Access the application using the configured Tomcat context path (for my local setup):
-   http://localhost:8080/servlet/
+3. Configure Apache Tomcat
+4. Configure the MySQL database connection
+5. Run the project on Tomcat
 
-  ## 📸 Application Preview
+For my local setup, the application ran at:
 
-<p align="center">
-  <b>Dashboard</b><br/>
-  <img src="screenshots/dashboard.png" width="700"/>
-</p>
-
-<p align="center">
-  <b>Order Items</b><br/>
-  <img src="screenshots/orders.png" width="700"/>
-</p>
-
-<p align="center">
-  <b>Shipments</b><br/>
-  <img src="screenshots/shipments.png" width="700"/>
-</p>
+```text
+http://localhost:8080/servlet/
