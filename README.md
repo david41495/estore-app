@@ -31,3 +31,9 @@ This project simulates an e-commerce admin system for managing clients, meetings
 3. Run on Apache Tomcat
 4. Access the application using the configured Tomcat context path (for my local setup):
    http://localhost:8080/servlet/
+
+   ## 📸 Application Preview
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="700"/>
+</p>
